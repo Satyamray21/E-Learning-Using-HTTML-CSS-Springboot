@@ -10,5 +10,5 @@ import com.example.learning.Model.UserModel;
 
 @Repository
 public interface UserRepoistory extends JpaRepository<MaterialModel,Long > {
-    Optional<UserModel> findByUsernameAndPassword(String username, String password)
+    Optional<UserModel> findByUsernameAndPassword(String username, String password);
 }
